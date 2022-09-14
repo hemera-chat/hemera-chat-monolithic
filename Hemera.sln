@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B713693-7CAF-4692-9AC1-70F2E9E05E3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{55AC798F-C7D8-482D-AA95-81746853CCE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F558657F-EA91-45AA-9668-45F2D09203B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8CE30812-46BA-47F8-8A44-6288B57C8C6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemera.Chat.API", "src\Presentation\Hemera.Chat.API\Hemera.Chat.API.csproj", "{6620AB49-5C4D-4BC4-B700-5F6FD081BACF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemera.Chat.Application", "src\Core\Hemera.Chat.Application\Hemera.Chat.Application.csproj", "{EEFF9AEB-A516-4652-B7F7-FCB76F69BE88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemera.Chat.Domain", "src\Core\Hemera.Chat.Domain\Hemera.Chat.Domain.csproj", "{F453E883-A139-4BA6-9A8B-AF10D8D7E288}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemera.Chat.EFCore", "src\Infrastructure\Hemera.Chat.EFCore\Hemera.Chat.EFCore.csproj", "{6FE7CD01-3121-4C9D-81A3-53D19877B878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{646EBEBC-8ECA-4989-BCBC-490F74E636D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hemera.Chat.IntegrationTest", "tests\Hemera.Chat.IntegrationTest\Hemera.Chat.IntegrationTest.csproj", "{C2313395-7503-4797-A368-29163A62529D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemera.Chat.MongoDB", "src\Infrastructure\Hemera.Chat.MongoDB\Hemera.Chat.MongoDB.csproj", "{98E0CA50-6671-441E-A710-61D384967029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hemera.Chat.UnitTest", "tests\Hemera.Chat.UnitTest\Hemera.Chat.UnitTest.csproj", "{139DB31A-7E4A-44E8-A864-659ECEC98E51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6620AB49-5C4D-4BC4-B700-5F6FD081BACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6620AB49-5C4D-4BC4-B700-5F6FD081BACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6620AB49-5C4D-4BC4-B700-5F6FD081BACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6620AB49-5C4D-4BC4-B700-5F6FD081BACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFF9AEB-A516-4652-B7F7-FCB76F69BE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFF9AEB-A516-4652-B7F7-FCB76F69BE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFF9AEB-A516-4652-B7F7-FCB76F69BE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFF9AEB-A516-4652-B7F7-FCB76F69BE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F453E883-A139-4BA6-9A8B-AF10D8D7E288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F453E883-A139-4BA6-9A8B-AF10D8D7E288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F453E883-A139-4BA6-9A8B-AF10D8D7E288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F453E883-A139-4BA6-9A8B-AF10D8D7E288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE7CD01-3121-4C9D-81A3-53D19877B878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE7CD01-3121-4C9D-81A3-53D19877B878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE7CD01-3121-4C9D-81A3-53D19877B878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE7CD01-3121-4C9D-81A3-53D19877B878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2313395-7503-4797-A368-29163A62529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2313395-7503-4797-A368-29163A62529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2313395-7503-4797-A368-29163A62529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2313395-7503-4797-A368-29163A62529D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E0CA50-6671-441E-A710-61D384967029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E0CA50-6671-441E-A710-61D384967029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E0CA50-6671-441E-A710-61D384967029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E0CA50-6671-441E-A710-61D384967029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139DB31A-7E4A-44E8-A864-659ECEC98E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139DB31A-7E4A-44E8-A864-659ECEC98E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139DB31A-7E4A-44E8-A864-659ECEC98E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139DB31A-7E4A-44E8-A864-659ECEC98E51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55AC798F-C7D8-482D-AA95-81746853CCE1} = {6B713693-7CAF-4692-9AC1-70F2E9E05E3A}
+		{F558657F-EA91-45AA-9668-45F2D09203B9} = {6B713693-7CAF-4692-9AC1-70F2E9E05E3A}
+		{8CE30812-46BA-47F8-8A44-6288B57C8C6F} = {6B713693-7CAF-4692-9AC1-70F2E9E05E3A}
+		{6620AB49-5C4D-4BC4-B700-5F6FD081BACF} = {8CE30812-46BA-47F8-8A44-6288B57C8C6F}
+		{EEFF9AEB-A516-4652-B7F7-FCB76F69BE88} = {55AC798F-C7D8-482D-AA95-81746853CCE1}
+		{F453E883-A139-4BA6-9A8B-AF10D8D7E288} = {55AC798F-C7D8-482D-AA95-81746853CCE1}
+		{6FE7CD01-3121-4C9D-81A3-53D19877B878} = {F558657F-EA91-45AA-9668-45F2D09203B9}
+		{C2313395-7503-4797-A368-29163A62529D} = {646EBEBC-8ECA-4989-BCBC-490F74E636D1}
+		{98E0CA50-6671-441E-A710-61D384967029} = {F558657F-EA91-45AA-9668-45F2D09203B9}
+		{139DB31A-7E4A-44E8-A864-659ECEC98E51} = {646EBEBC-8ECA-4989-BCBC-490F74E636D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8A70BD6-54AB-4058-A5A7-8D6C10DEC0BD}
+	EndGlobalSection
+EndGlobal
