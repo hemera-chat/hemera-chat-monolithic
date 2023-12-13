@@ -1,6 +1,6 @@
 ## HemeraChat
 ### What is HemeraChat?
-HemeraChat is a chat application built on Asp.Net Core and SignalR. It is designed to be used internally within your application and will be available as a NuGet package in the near future.
+**HemeraChat** is a chat application built on **Asp.Net Core** and **SignalR**. It is designed to be **used internally within your application** and will be available as a NuGet package in the near future.
 This README file serves as an introduction to the HemeraChat project, providing essential information for understanding the application and its usage.
 To get started, you can follow the steps below to incorporate HemeraChat into your application:
 Clone the HemeraChat repository to your local machine.
